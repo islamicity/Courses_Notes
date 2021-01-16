@@ -157,7 +157,39 @@
 
 ## Conditions, Flows, and Policies.
 
+- Apigee API proxies allow the use of variables. Variables can be used to control the functionality of your proxies. Apigee has predefined variables that are set for each API call. Some variables give us information about the incoming request. 
 
+  ![image-20210116124708194](./images/variables.png)
+
+- The variables set by policies will be used to customize the flow and behavior of your APIs. An example of a variable that you will use quite often is proxy.pathsuffix. proxy.pathsuffix is automatically set to the part of the incoming URL following the base path, not including the query parameters. For a RESTful API, the request's proxy path suffix and verb indicate the operation being performed. 
+
+  ![image-20210116125357020](./images/proxy_path_suffix.png)
+
+- **Conditions** allow dynamic handling during API calls. Conditions are like if statements in other programming languages, and must always evaluate to true or false. Variables and literals may be used conditions, and conditions may be chained using the AND and OR operators. 
+
+  ![image-20210116125636024](./images/Conditions.png)
+
+- Apigee also has multiple **pattern matching** operators.
+
+  ![image-20210116130005216](./images/pattern_matching_operators.png)
+
+- **API proxy flows.** The evaluation order of flows is as follows. When the API request is received by the proxy endpoint, it is first handled by the proxy endpoint request flows. It is here that the request is typically validated and parsed. Next, route rules are evaluated to determine which target, if any, should continue with the processing. 
+
+  Next, the target endpoint request flows are processed. The request to be sent to the backend is generally built in these flows. Next, the request is sent to the backend target service, which returns a response. The next set of flows to handle processing is the target endpoint response. We generally parse the backend response here.
+
+  Finally, processing continues to the proxy endpoint response. It is here we typically build the API response and log any necessary information. After these flows, the response is returned to the API consumer.
+
+  ![image-20210116130339094](./images/api_proxy-flows.png)
+
+- **Policies** are pre-built modules that implement specific functionality. They allow features like security, rate-limiting, and payload manipulation. These features are controlled using simple XML configuration and without writing any code. However, when you need code for a complex use case, there are also policies that allow you to run custom code. A policy can also be conditionally executed. If the condition for a policy evaluates to false, policy execution is skipped.
+
+- Policies are created within a proxy. Each policy contains its own configuration written in XML. Proxies can contain multiple policies of the same policy type, and a policy can be attached to one or more flows within a proxy. When a policy is attached to a flow, it is called a step. Each step can be associated with a condition. If the condition evaluates to true, the policy is executed during the step. When a flow is run, steps are evaluated in order. The diagram shows the proxy endpoint request flows. The policies are shown at the bottom. They are attached to flows as steps. When an API call comes in, the steps in the PreFlow would be run in order, followed by steps in the first matching conditional flow, if any, and ending with any steps in the PostFlow. 
+
+  ![image-20210116131519338](./images/ataching_policies.png)
+
+- The policy type is shown in the policy definition, not the flow. One common convention for a policy name is to use an abbreviation for the policy type, followed by a descriptive name separated by a hyphen. The policy type is usually not enough information to understand what the policy is meant to do.
+
+  ![image-20210116132456846](./images/policy_naming_convention.png)
 
 
 
