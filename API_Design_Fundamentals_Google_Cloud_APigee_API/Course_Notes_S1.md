@@ -193,6 +193,41 @@
 
 
 
+## Target Endpoints, Route Rules, and Target Servers.
+
+- Target endpoints live inside a proxy, and proxies sometimes have multiple target endpoints.
+- Sometimes no target endpoint should be called (when the proxy handles the entire request/response).
+- Target endpoints are chosen based on a proxy's route rules. After the PostFlow for the proxy endpoint request completes, the proxies configured route rules are evaluated. As with conditional flows, the route rule conditions are evaluated in order to determine which target endpoint to use, if any. The first matching route rule indicates which target endpoint should be used. The request processing would continue with the specified target endpoint request flows, the request would be sent to the backend target, and then processing would continue with the target endpoint response flow, followed by the proxy endpoint response flow.
+  The same target and proxy endpoints that handle the request path would also handle the response path.
+  A matched route rule might specify that no target endpoint should be used. In this case, the processing would continue with the proxy endpoint response. It would be up to the proxy endpoint response flows to build the correct response for the API call. Each route rule has an optional condition. The route rule is a match if the condition is true. If there is no condition on a route rule, the route rule is always a match.
+  The target endpoint for a route rule specifies which target to use if the route rule is a match.
+  If there is no target endpoint specified, no target endpoint will be used, and processing will continue in the proxy endpoint response.
+
+![image-20210116171222871](./images/route_rules.png)
+
+- The backend destination is specified in the HTTPTargetConnection element. In this example, the target URL for the backend is hardcoded. The proxy path suffix is typically appended to the configured target URL to determine the full backend URL.
+
+  ![image-20210116171424369](./images/httptargetconnection.png)
+
+- Target server
+
+  ![image-20210116172135000](./images/target_server.png)
+
+- Apigee provides a load balancing feature for distributing traffic among multiple backend servers. Backends need to be configured as target servers.
+  Load balancing algorithms like round robin and least connections can be used to distribute traffic between the backends.
+  You can use the MaxFailures element to specify the maximum number of consecutive failures that are allowed before a backend is automatically taken out of service.
+  Configured TCP or HTTP health checks can detect when a backend is healthy again and bring the backend back into rotation.
+  When you use the MaxFailures element, you should always include a health check. If you don't, backends removed from service will never be put back into service.
+  Apigee's load balancing feature is not intended to replace the use of load balancers in backend data centers.
+
+  ![image-20210116172510194](./images/load_balancing.png)
+
+- You can use endpoint properties to change many transport settings for your connections to the backend. In most cases, you should reduce the default connection and socket read write timeouts.
+
+  ![image-20210116172735464](./images/endpoint_properties.png)
+
+- f
+
 
 
 
