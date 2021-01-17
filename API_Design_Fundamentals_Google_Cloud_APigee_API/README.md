@@ -7,6 +7,8 @@
 - Course notes [week1](Course_Notes_S1.md)
 - Course notes [week2](Course_Notes_S2.md)
 
+
+
 ## LABS
 
 - Lab 1: Generating an API Proxy Using an OpenAPI Specification [LAB 1](Lab1_Generating_an_API_Proxy_Using_an_OpenAPI_Specifications.md)
@@ -18,5 +20,12 @@
 
 ## RESOURCES
 
+**DOCUMENTATION**
+
+- [Documentation](./docs/)
+
+**LINKS**
+
 - Apigee trace tool:  https://docs.apigee.com/api-platform/debug/using-trace-tool-0
 - Offline trace tool: https://docs.apigee.com/api-platform/debug/using-offline-trace-tool
+
