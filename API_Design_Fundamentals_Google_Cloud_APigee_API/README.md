@@ -11,10 +11,10 @@
 
 ## LABS
 
-- Lab 1: Generating an API Proxy Using an OpenAPI Specification [LAB 1](Lab1_Generating_an_API_Proxy_Using_an_OpenAPI_Specifications.md)
-- Lab 2: Using Target Servers [LAB 2](Lab2_Using_Target_Server.md)
-- Lab 2a: Using Proxy Endpoints and Route Rules [LAB 3](Lab3_Using_proxy_Endpoints_and_Route_Rules.md)
-- Lab 2b: Using the Trace Tool [LAB 4](Lab4_Using_the_Trace_tool.md)
+- **LAB 1 -----** Lab 1. Generating an API Proxy Using an OpenAPI Specification [LAB 1](Lab1_Generating_an_API_Proxy_Using_an_OpenAPI_Specifications.md)
+- **LAB 2 -----** Lab 2. Using Target Servers [LAB 2](Lab2_Using_Target_Server.md)
+- **LAB 3 -----** Lab 2b. Using Proxy Endpoints and Route Rules [LAB 3](Lab3_Using_proxy_Endpoints_and_Route_Rules.md)
+- **LAB 4 -----** Lab 2b. Using the Trace Tool [LAB 4](Lab4_Using_the_Trace_tool.md)
 
 
 
