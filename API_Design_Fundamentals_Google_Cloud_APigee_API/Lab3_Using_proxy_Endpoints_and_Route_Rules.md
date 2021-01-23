@@ -1,4 +1,4 @@
-# Lab 2a: Using Proxy Endpoints and Route Rules
+# Lab 3 (Lab 2a): Using Proxy Endpoints and Route Rules
 
 
 

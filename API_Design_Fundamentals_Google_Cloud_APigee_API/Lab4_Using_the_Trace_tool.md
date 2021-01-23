@@ -1,4 +1,4 @@
-# Lab 2b: Using the Trace Tool
+# Lab 4 (Lab 2b): Using the Trace Tool
 
 
 
