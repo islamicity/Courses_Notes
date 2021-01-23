@@ -1,4 +1,4 @@
-# Lab 3: Publishing APIs as Products
+# Lab 5(Lab 3): Publishing APIs as Products
 
 
 
