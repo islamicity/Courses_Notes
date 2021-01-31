@@ -1,6 +1,6 @@
 # Asking Questions
 
-Resource: [Aaking questions](./docs/asking-questions-b1.pdf)
+Resource: [Aaking questions](../docs/asking-questions-b1.pdf)
 
 | Statement                        | Question forms                              |
 | -------------------------------- | ------------------------------------------- |
@@ -24,13 +24,13 @@ Ask an appropriate question for each response:
 4. The goods arrived yesterday.
 **When . . . .** did  the goods arrive ?
 5. I was talking to the new sales manager.
-  **Who . . . .** were you talking to**. . . . this morning?**
+    **Who . . . .** were you talking to**. . . . this morning?**
 6. I get to work by train.
-  **How . . . .**do you get to work  **. . . . every day?**
+    **How . . . .**do you get to work  **. . . . every day?**
 7. I’m staying at the Grand Hotel.
-  **Where . . . .** are you staying ?
+    **Where . . . .** are you staying ?
 8. I finished the task an hour ago.
-  **When . . . .** did you finish task ?
+    **When . . . .** did you finish task ?
 
 
 
