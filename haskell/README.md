@@ -1,0 +1,8 @@
+# HASKELL
+
+# NOTES
+
+
+## BOOKS
+
+## RESOURCES
