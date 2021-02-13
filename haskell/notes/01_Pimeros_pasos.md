@@ -1,4 +1,4 @@
-# Haskell. Primeros pasos.
+# Getting started with Haskell.
 
 - The haskell community has put together a single, easily installable package of useful tools referred to as the ***Haskell Platform***. This package includes the following:
 
@@ -66,8 +66,79 @@
 
   ## Interacting with Haskell (GHCi).
 
-  
+  One of the most useful tools for writing Haskell programs is GHCi, an interactive face for GHC. GHCi is started with a simple command: *ghci*. When we start GHCi, we'll be greeted with a new prompt:
 
+  ```bash
+  $ ghci
+  GHCi, version 8.6.5: http://www.haskell.org/ghc/  :? for help
+  Prelude>
+  Prelude> :set prompt "ghci> "
+  ghci> 
+  ```
+  
+  The prompt here is Prelude> but because it can get longer when load stuff into the session.  We can change it, just type in :set prompt "ghc> ".
+  
+  Here's some simple examples
+  
+  **ARITHMETIC**
+  
+  ```
+  ghci> 3 + 3
+  6
+  ghci> 33 * 40
+  1320
+  ghci> 1231231 - 3423423
+  -2192192
+  ghci> 5 / 2
+  2.5
+  ghci>  (50 * 300) - 200
+  14800
+  ```
+  
+  **BOOLEAN ALGEBRA**
+  
+  ```bash
+  ghci>  True && False
+  False
+  ghci> True && True
+  True
+  ghci> not False
+  True
+  ```
+  
+  **TESTING EQUALITY**
+  
+  ```bash
+  ghci> 5 == 5
+  True
+  ghci> 1 == 0
+  False
+  ghci> 5 /= 5
+  False
+  ghci> "hello" == "hello"
+  True
+  ```
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 
 

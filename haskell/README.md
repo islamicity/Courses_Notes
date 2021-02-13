@@ -7,7 +7,7 @@ Recopilación de notas y recursos sobre Haskell.
 ## NOTES
 
 - Introducción a Haskell. [here](./notes/00_Introduccion_haskell.md) 
-- Primeros pasos [here](./notes/01_Pimeros_pasos.md)
+- Getting started with Haskell [here](./notes/01_Pimeros_pasos.md)
 - 
 
 
@@ -23,4 +23,5 @@ Recopilación de notas y recursos sobre Haskell.
 
 - Haskell Documentation: https://www.haskell.org/documentation/
 - GHC User Guide: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/
+- Learn You a HAskell for Great Good!: http://learnyouahaskell.com/
 - 
