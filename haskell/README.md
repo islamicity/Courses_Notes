@@ -21,7 +21,7 @@ Recopilación de notas y recursos sobre Haskell.
 
 ## RESOURCES
 
-- Haskell Documentation: https://www.haskell.org/documentation/
-- GHC User Guide: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/
-- Learn You a HAskell for Great Good!: http://learnyouahaskell.com/
-- 
+- Haskell Documentation. https://www.haskell.org/documentation/
+- GHC User Guide. https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/
+- Learn You a HAskell for Great Good!. http://learnyouahaskell.com/
+- School of Haskell. https://www.schoolofhaskell.com/
