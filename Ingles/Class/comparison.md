@@ -9,7 +9,7 @@
 Comparative adjectives are used to compare differences between the two objects they modify (larger, smaller, faster, higher). They are used in sentences where two nouns are compared, in this patter:
 
 ```text
-Noun(subject) + verb + comparative adjetive + than + noun(object).
+Noun(subject) + verb + comparative adjective + than + noun(object).
 ```
 
 
@@ -34,7 +34,7 @@ Noun(subject) + verb + comparative adjetive + than + noun(object).
 Superlative adjectives are used to describe an object which is at the upper or lower limit of a quality ( the tallest, the smallest, the fastest, the highest). They are used in sentences where a subject is compared to a group ob objects.
 
 ```
-Noun(subject) + verb + the + superlative adjetive + noun (object).
+Noun(subject) + verb + the + superlative adjective + noun (object).
 ```
 
 > **Examples**:
