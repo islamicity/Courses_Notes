@@ -4,9 +4,7 @@
 
 ## Start like this.
 - Hi, my name is… and I want to say this…
-
 - We are here today to discuss...
-
 - We have (two) guests here in the studio. Let me introduce them...
   
   

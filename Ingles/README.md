@@ -4,8 +4,7 @@
 
 - Asking questions [Link](./Class/asking-questions.md)
 - Comparison [Link](./Class/comparison.md)
-
-- Undersea Tunnel [Link](./Class/undersea_tunnel.md)
+- Discussion [Link](./Class/discussion.md)
 
 
 ## Vocabulary
