@@ -3,5 +3,11 @@
 ## Lessons
 
 - Asking questions [Link](./Class/asking-questions.md)
-- Comparision [Link](./Class/comparison.md)
-- 
+- Comparison [Link](./Class/comparison.md)
+
+- Undersea Tunnel [Link](./Class/undersea_tunnel.md)
+
+
+## Vocabulary
+
+- Undersea tunnel [Link](./Class/undersea_tunnel.md)

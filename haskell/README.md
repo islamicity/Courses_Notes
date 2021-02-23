@@ -25,3 +25,7 @@ Recopilación de notas y recursos sobre Haskell.
 - GHC User Guide. https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/
 - Learn You a HAskell for Great Good!. http://learnyouahaskell.com/
 - School of Haskell. https://www.schoolofhaskell.com/
+- H-99: Ninety-Nine Haskell Problems. https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
+- Functional Programming course. https://github.com/bitemyapp/fp-course
+- VS Code for Haskell in 2020. https://dev.to/egregors/vscode-for-haskell-in-2020-5dn8
+- 
